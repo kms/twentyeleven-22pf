@@ -24,3 +24,22 @@ Version:        0.1.0
 #site-generator {
     padding: 0.5em 0.5em;
 }
+
+#main {
+    padding-top: 0.5em;
+}
+
+body {
+    line-height: 1.25;
+}
+
+#content nav {
+    padding: 0;
+    margin: 0;
+}
+
+.singular.page .hentry,
+.singular .hentry {
+    padding: 0;
+    margin: 0;
+}
