@@ -17,6 +17,13 @@ Version:        0.1.0
     margin: 0 270px 1em 0;
 }
 
+#branding hgroup {
+    background-image: url(images/22pf-orange-small.png);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    padding-left: 60px;
+}
+
 #branding #searchform {
     top: 2em;
 }
@@ -30,7 +37,7 @@ Version:        0.1.0
 }
 
 body {
-    line-height: 1.25;
+    line-height: 1.25em;
 }
 
 #content nav {
@@ -42,4 +49,53 @@ body {
 .singular .hentry {
     padding: 0;
     margin: 0;
+}
+
+.entry-content {
+    padding-top: 0.1em;
+    padding-bottom: 0.1em;
+}
+
+.singular .entry-content,
+.singular.page .entry-content {
+    padding-top: 0.1em;
+    padding-bottom: 1.5em;
+}
+
+#content {
+    text-align: justify;
+}
+
+img.alignleft, img.alignright, img.aligncenter {
+    margin-bottom: 0.5em;
+}
+
+pre {
+    margin-bottom: 0.5em;
+}
+
+dl dd {
+    margin-left: 1em;
+}
+
+.entry-content {
+    margin-top: 0.75em;
+    margin-bottom: 0.75em;
+}
+
+.wp-caption {
+    margin-bottom: 0;
+}
+
+.syntaxhighlighter a,
+.syntaxhighlighter div,
+.syntaxhighlighter code,
+.syntaxhighlighter table,
+.syntaxhighlighter table td,
+.syntaxhighlighter table tr,
+.syntaxhighlighter table tbody,
+.syntaxhighlighter table thead,
+.syntaxhighlighter table caption,
+.syntaxhighlighter textarea {
+    line-height: 100% !important;
 }
